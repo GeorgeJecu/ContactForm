@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: 2em;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeeeee;
+    height: 10em;
+}
+
+#heading1{
+    margin-left: 20%;
+    font-size: 3rem;
+    color: #444444;
+}
+
+#heading2{
+    margin-top: 1em;
+    margin-left: 0.5em;
+    color: #999999;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin: auto;
+    margin-top: 1.5em;
+    width: max-content;
+    padding: 0.8em 0.8em;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input{
+    width: 20em;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
+    padding: 0.5em 0em 0.5em 0.5em;
+    border: 1px;
+}
+
+textarea{
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
+    padding: 0.5em 0em 0.5em 0.5em;
+
+}
+
+input, textarea{
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.info{
+    margin-right: 1em;
+}
+
+button{
+    margin-left: 65%;
+    border: 1px solid #428bca;
+    border-radius: 4px;
+    background-color: #428bca;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 4em 3px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 22em;
+}
+
+a{
+    text-decoration: none;
+    color: #2763a3;
+    font-size: 0.9rem;
+}
